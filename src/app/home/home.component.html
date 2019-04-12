@@ -1,0 +1,20 @@
+<app-nav></app-nav>
+<br>
+<ngb-tabset>
+    <ngb-tab title="Members List">
+      <ng-template ngbTabContent>
+      <app-list></app-list>
+      </ng-template>
+    </ngb-tab>
+    <ngb-tab>
+      <ng-template ngbTabTitle><b>Active Leave</b></ng-template>
+      <ng-template ngbTabContent>
+          <app-leave></app-leave>
+      </ng-template>
+    </ngb-tab>
+    <ngb-tab title="Add New Member" [disabled]="false">
+      <ng-template ngbTabContent>
+        <app-create></app-create>
+    </ng-template>
+    </ngb-tab>
+  </ngb-tabset>
