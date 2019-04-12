@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+<<<<<<< HEAD
 import {HomeComponent} from './home/home.component'
 import { LoginComponent } from './login/login.component';
 import { CreateComponent } from './create/create.component';
@@ -43,6 +44,14 @@ const routes: Routes = [
   }
 
 ];
+=======
+import { LoginComponent } from './login/login.component';
+import { HomepageComponent } from './homepage/homepage.component';
+
+const routes: Routes = [{path: '', redirectTo: 'login', pathMatch: 'full'},
+{path: 'login', component: LoginComponent},
+{path: 'homepage', component: HomepageComponent}];
+>>>>>>> b5033411f4347c68b9d9eb459189546badf6d867
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 # WebApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.4.
+=======
+# Home
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
+>>>>>>> b5033411f4347c68b9d9eb459189546badf6d867
 
 ## Development server
 
